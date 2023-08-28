@@ -1,3 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&family=Roboto:wght@100;400&display=swap');
+
+
+
+.container {
+    width: 1600px;
+    height: 80px;
+    background-color: white;
+}
+
+menu {
+    width: 1600px;
+    height: 80px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.logo{
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    align-items: flex-start;
+}
+
+span {
+    color: black;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.studio {
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    align-items: center;
+    justify-self: center;
+}
+
+.portfolio{
+    padding-right: 50px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.cont{
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.email{
+    color: #2196F3;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.tel{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.page-1{
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
+    background: #2F303A;
+}
+
+.text{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    width: 216px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.button-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+}
+
+.page-2{
+    width: 1600px;
+    height: 600px;
+    flex-shrink: 0;
+    background: white;
+}
+
+
+.page-3{
+    background: #F5F4FA;
+    width: 1600px;
+    height: 2346px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    
+    width: 275px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.info{
+    padding: 0 30px 10px 215px;
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+
+.punctuality{
+    width: 270px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.info-1{
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+
+
+.plan{
+    color: #212121;
+    width: 270px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.info-2{
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+
+.technology{
+    width: 270px;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;   
+}
 .info-3{
     width: 270px;
     height: 72px;
