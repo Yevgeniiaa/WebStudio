@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;500&family=Roboto:wght@100;400&display=swap');
 
-
+body {
+    display: flex;
+}
 
 .container {
     width: 1600px;
@@ -268,6 +270,9 @@ span {
 }
 
 .card{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
     width: 270px;
     height: 368px;
     flex-shrink: 0;
@@ -275,10 +280,6 @@ span {
     background: #FFF;
     font-family: Roboto;
     font-size: 16px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30px;
 }
 
 .card-1{
@@ -315,13 +316,14 @@ span {
     color: #212121;
     font-weight: 500;
     letter-spacing: 0.48px;
-    margin-top: 20px;
+    text-align: center;
 }
 
 .job{
     color: #757575;
     font-weight: 400;
     letter-spacing: 0.48px;
+    text-align: center;
 }
 
 .footer {
