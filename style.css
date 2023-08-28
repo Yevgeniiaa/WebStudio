@@ -1,0 +1,174 @@
+.info-3{
+    width: 270px;
+    height: 72px;
+    flex-shrink: 0;
+    color: #757575;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+
+.we{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+    gap: 30px;
+    width: 270px;
+    height: 260px;
+    flex-shrink: 0;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    color: #212121;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+}
+
+.card{
+    width: 270px;
+    height: 368px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+
+.card-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+
+.card-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px 0;
+}
+
+
+.name{
+    color: #212121;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    margin-top: 20px;
+}
+
+.job{
+    color: #757575;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+
+.footer {
+    width: 1600px;
+    height: 252px;
+    flex-shrink: 0;
+    background: #2F303A;
+    margin: 94px 0 0 0;
+}
+
+.logo-1{
+    padding: 60px 0 0 215px;
+    color: #2196F3;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+span-1 {
+    color: white;
+    font-family: Raleway;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+}
+
+.adress{
+    color: white;
+    padding: 20px 0 0 215px;
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
+
+.email-1{
+    padding: 9px 0 0 215px;
+    width: 136px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+   letter-spacing: 0.42px;
+}
+
+.tel-1{
+    padding: 9px 0 0 215px;
+    width: 231px;
+    height: 21px;
+    flex-shrink: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+}
